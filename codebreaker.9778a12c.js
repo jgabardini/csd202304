@@ -1,0 +1,2 @@
+var e=class{constructor(e){this.codigo=e}adivinar(e){this.intento=e}obtenerPistas(){let e="";for(let t=0;t<this.intento.length;t++)this.intento[t]==this.codigo[t]?e+="! ":e+="- ";return e=e.substring(0,e.length-1),e}};const t=document.querySelector("#numero"),n=document.querySelector("#arriesgo"),o=document.querySelector("#resultado");n.addEventListener("click",(n=>{n.preventDefault();const r=new e("1957");r.adivinar(t.value),o.innerHTML=`Ingresaste ${t.value} y estos son los indicadores ${r.obtenerPistas()}`}));
+//# sourceMappingURL=codebreaker.9778a12c.js.map
