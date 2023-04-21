@@ -10,7 +10,7 @@ boton_elem.addEventListener("click", (event) => {
   event.preventDefault();
 
   // const input_text = input.value;
-  const cb = new CodeBreaker("1357");
+  const cb = new CodeBreaker("1957");
   cb.adivinar(numero_elem.value);
   // expect(cb.obtenerPistas()).toEqual(‘! * - -’)
   // expect(cb.ganoElJuego()).toEqual(false)
